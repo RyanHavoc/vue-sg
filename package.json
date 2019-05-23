@@ -5,11 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "styleguide": "vue-cli-service styleguidist",
+    "styleguide:build": "vue-cli-service styleguidist:build"
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-styleguidist": "^3.13.5",
+    "webpack": "^4.32.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.7.0",
@@ -18,6 +22,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "vue-cli-plugin-styleguidist": "^3.13.5",
     "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
